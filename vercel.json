@@ -1,0 +1,10 @@
+{
+    "redirects": [
+      {
+        "source": "/(.*)",  // This matches all routes
+        "destination": "/", // Redirect to your main page
+        "permanent": false  // Use false for temporary (302) or true for permanent (301)
+      }
+    ]
+  }
+  
