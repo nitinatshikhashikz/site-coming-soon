@@ -2,7 +2,7 @@
     "redirects": [
       {
         "source": "/(.*)",
-        "destination": "/index.html",  // Redirects to index.html specifically
+        "destination": "/index.html",
         "permanent": false
       }
     ]
