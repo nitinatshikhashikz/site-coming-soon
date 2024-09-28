@@ -1,16 +1,8 @@
 {
-    "redirects": [
+    "routes": [
       {
-        "source": "/(.*)",
-        "has": [
-          {
-            "type": "cookie",
-            "key": "your-cookie-name",
-            "value": "value"
-          }
-        ],
-        "destination": "/", 
-        "permanent": false
+        "src": "/(.*)",
+        "dest": "/"
       }
     ]
   }
