@@ -1,6 +1,6 @@
 {
     "redirects": [
-      { "source": "/((?!index.html).*)", "destination": "/index.html", "permanent": false }
+      { "source": "/((?!index|img|scripts|styles).*)", "destination": "/index.html", "permanent": false }
     ]
   }
   
